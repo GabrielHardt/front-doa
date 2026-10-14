@@ -1,0 +1,52 @@
+:root {
+  --color-primary: #1f7a6b;
+  --color-primary-hover: #17604f;
+  --color-sidebar: #123f38;
+  --color-sidebar-text: #d9ebe7;
+  --color-accent: #e0a030;
+  --color-text: #1f2937;
+  --color-text-muted: #5b6672;
+  --color-bg: #f3f6f5;
+  --color-surface: #ffffff;
+  --color-border: #d7dedb;
+  --color-critical: #c0392b;
+  --color-success: #2e9b5f;
+  --radius: 8px;
+  --font-family:
+    "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+button,
+input {
+  font: inherit;
+}
