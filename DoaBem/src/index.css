@@ -11,9 +11,10 @@
   --color-border: #d7dedb;
   --color-critical: #c0392b;
   --color-success: #2e9b5f;
+  --color-divider: rgba(255, 255, 255, 0.15);
+  --white: #ffffff;
   --radius: 8px;
-  --font-family:
-    "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
 *,
@@ -31,7 +32,7 @@ body,
 body {
   margin: 0;
   font-family: var(--font-family);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   color: var(--color-text);
   background: var(--color-bg);
@@ -40,13 +41,7 @@ body {
 
 h1,
 h2,
-h3 {
-  margin: 0 0 0.5rem;
-  font-weight: 600;
-  line-height: 1.25;
-}
-
-button,
-input {
-  font: inherit;
+h3,
+p {
+  margin: 0;
 }
