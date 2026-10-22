@@ -1,4 +1,4 @@
-import { Input } from '../Input/Input.jsx'
+import { Input } from '@/components/Input/Input.jsx'
 import { ErrorText, Field, Label } from './FormField.styles.js'
 
 export function FormField({

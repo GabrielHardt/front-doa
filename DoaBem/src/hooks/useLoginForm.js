@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { login } from '../services/authService.js'
-import { validateLogin } from '../utils/validateLogin.js'
+import { login } from '@/services/authService.js'
+import { validateLogin } from '@/utils/validateLogin.js'
 
 export function useLoginForm() {
   const [email, setEmail] = useState('')

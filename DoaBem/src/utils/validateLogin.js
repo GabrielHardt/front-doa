@@ -1,4 +1,4 @@
-import { LOGIN_MESSAGES } from '../constants/loginMessages.js'
+import { LOGIN_MESSAGES } from '@/constants/loginMessages.js'
 
 const EMAIL_PATTERN = /^\S+@\S+\.\S+$/
 

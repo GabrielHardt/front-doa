@@ -1,7 +1,7 @@
 import { IconArrowRight } from '@tabler/icons-react'
-import { Button } from '../Button/Button.jsx'
-import { FormField } from '../FormField/FormField.jsx'
-import { useLoginForm } from '../../hooks/useLoginForm.js'
+import { Button } from '@/components/Button/Button.jsx'
+import { FormField } from '@/components/FormField/FormField.jsx'
+import { useLoginForm } from '@/hooks/useLoginForm.js'
 import {
   Container,
   Eyebrow,
